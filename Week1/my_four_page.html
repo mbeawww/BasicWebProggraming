@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>แบบฝึกหัด4</title>
+<style>
+    h1{
+        color: blue;
+        text-align: center;
+    }
+    
+    p{
+        color: (#333);
+        background-color: #f0f0f0;
+        padding: 15px;
+    }
+    .font-green{
+        color: green;
+        background-color: aqua;
+        font-size: 80px;
+        
+    }
+</style>
+</head>
+ <body>    
+    <h1>สีชมพู</h1>
+    <p>สีน้ำตาล</p>
+    <h1 id="Title">ลูกน้องของครูบาชื่อว่าอะไร </h1>
+    <button onclick ="changeTitle()">คำตอบก็คือ</button>
+    <p class="font-green">ครูบาช่วยหมูเด้งด้วย</p>
+    <p style="color:rgb(255, 0, 128);font-size: 90px; text-align: center;">งาน2</p>
+    <a href= 'https://www.youtube.com/watch?v=IrHTT2IEKpE'>เบียวเมะ</a>
+    <br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA39I61hoXwqKwYcYW478bpjK_VfXjgKFu2w&s" alt ='หมูเด้งกับครูบา' width="400" >
+    <button onclick ="changeTitle()">click me</button>
+    <script> //ต้องเขียนjavaภายใต้ <script>
+       function changeTitle() {
+        const Title = document.getElementById("Title");
+        Title.innerHTML = "หมูเด้ง";
+        Title.style.color = "red";
+        Title.image = document.getElementById(Title)
+       }
+    </script>  
+</body>
+</html>
