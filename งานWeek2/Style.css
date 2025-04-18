@@ -1,0 +1,17 @@
+.font-thai {
+    font-size: 20px;
+    color: #00c3ff;
+    font-family: 'Kanit', sans-serif;
+}
+button  {
+    background-color: #00c3ff;
+    color: rgb(182, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 15;
+    cursor: pointer;
+}
